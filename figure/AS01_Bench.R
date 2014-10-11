@@ -3,7 +3,9 @@ rm(list=ls())
 options(warn=-1)
 library(data.table)
 library(lubridate)
-setwd("/home/impulsleistung/Dokumente/coursera_git//04_ExploratoryAnalysis")
+#
+# 
+# IMPORTANT set the path to the file with the data
 largeFile<-"/home/impulsleistung/Dokumente/Coursera_largeData/household_power_consumption.txt"
 # Check the external data source
 if(!file.exists(largeFile)) {
